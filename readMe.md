@@ -13,16 +13,8 @@ twitterDeveloperAPI
 あとは、青空文庫データベースとかが無料で公開されているツールです。
 
 ## 実際のコード
-```flow
-st=>start: twitterAPI
-e=>end: tlNow.png
-op=>operation: data.py
-op2=>operation: txtMold.py
-op3=>operation: mecab.py
-op4=>operation: makeImage.py
+twitterAPI->data.py->txtMold.py->mecab.py->makeImage.py->tlNow.png
 
-st->op->op2->op3->op4->e
-```
 ### data.py
 twitterからデータを取ってきて、data.txtに保存する。
 また取得できた時間を得て、テキストを付与してtweeetText.txtに保存する。
