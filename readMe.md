@@ -1,5 +1,5 @@
 # twitter-TL上の話題解析プログラム
-
+twitterAnalyze_example.jpegのような画像を作るプログラムです。
 ## 使ったモジュール
 - mecab(形態素解析ツール)
 - wordcloud(単語をカウントして画像化)
